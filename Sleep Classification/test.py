@@ -315,7 +315,7 @@ for i in range(len(probabilities)):
     #     new_predictions.append(0)
 
     #group 1 and 2
-    if probabilities[i][3] > 0.24: #if the probability of REM sleep is greater than 0.24, guess REM 
+    if probabilities[i][4] > 0.24: #if the probability of REM sleep is greater than 0.24, guess REM 
         new_predictions.append(1)
     else: new_predictions.append(0)
     # if pred == 3:
